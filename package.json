@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Agbeleshe.github.io/nupatAssignment",
+  "homepage": "https://github.com/Agbeleshe/nupatAssignment.git",
   "name": "nupat-project",
   "version": "0.1.0",
   "private": true,
@@ -14,8 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"g-h pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "g-h pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
