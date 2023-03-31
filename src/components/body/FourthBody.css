@@ -1,0 +1,56 @@
+.main{
+    margin-top: 36rem;
+    text-align: center;
+}
+
+.sample-img{
+  margin: 0 auto;
+  width: 95%;
+}
+
+.imgGrid{
+    height: 20rem;
+    width: 15rem;
+    padding: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imgGrid:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.low-con{
+    margin-top: -10rem ;
+    z-index: -1;
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(to right, #FFB629, #FFDA56, #FFD7A6);
+}
+
+.blue-btn{
+    padding: 17.5px;
+    font-weight: bold;
+    background: #091242;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    width: 10rem;
+}
+
+.blue-btn:hover{
+    color:#FFB629
+}
+
+
+
+.text{
+    margin-bottom: 2rem;
+}
+
+.debree{
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 10.5px;
+}

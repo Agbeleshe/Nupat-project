@@ -1,0 +1,98 @@
+.nav-container{
+    background-color: rgba(19, 17, 17, 0.5);
+    width: 100%;
+    display: flex;
+}
+
+.vector{
+    font-size: 100px;
+    padding: 5px;
+}
+
+.inner{
+  display: flex;
+  width: 100%;
+  margin-left:13.0rem ;
+}
+
+ul{
+    text-decoration: none;
+    display: flex;
+    color: white;
+    margin-right: 5%;
+    margin-top: 0.35rem;
+}
+
+li{
+    padding: 0 1.5em;
+    border-right: 0.01px solid rgb(218, 215, 215);
+    display: flex;
+    list-style: none;
+    font-size: 13px;
+}
+
+li:active {
+    text-decoration: underline;
+}
+
+.nav-bar{
+    padding: 1.05rem 0;    
+}
+
+.social-icons img{
+    padding: 0.625em;
+    margin-right: 1%;
+}
+.social-icons{
+    width: 16%;
+    margin-top: 0.75rem;
+    margin-left: 8rem;
+    margin-right: 2rem;
+}
+
+.request-btn{
+    background-color: white;
+    border: none;
+    width: 10.05rem;
+    height: 3.476rem;
+}
+
+.request-btn:hover{
+    background-color:#091242;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-bar ul li.dropdown {
+  position: relative;
+}
+
+.nav-bar ul li.dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  padding: 8px 0;
+  margin:0;
+  background-color: rgba(19, 17, 17, 0.5);
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.nav-bar ul li.dropdown:hover .dropdown-menu {
+   display: block;
+   transition: initial 1s ease-in;
+}
+
+.nav-bar ul li.dropdown .dropdown-menu li {
+  display: block;
+  padding: 8px;
+  transition: all 1.0s ease;
+}
+
+.nav-bar ul li.dropdown .dropdown-menu li:hover {
+  background-color: #091242;
+  transition: all 1.5s ease;
+}
